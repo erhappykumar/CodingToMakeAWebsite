@@ -4,24 +4,24 @@
 
 const body = document.querySelector("body");
 body.innerHTML += `<nav class="nav">
-        <div class="nav_html"><a href="../HTML_page/Introduction.html"><div class="nav_a_div">html</div></a></div>
+        <div class="nav_html"><a href="../HTML_page/Introduction.html" class="nav_a"><div class="nav_a_div">html</div></a></div>
         
-        <div class="nav_css"><a href="../CSS_page/Introduction to CSS.html"><div class="nav_a_div">css</div></a></div>
+        <div class="nav_css"><a href="../CSS_page/Introduction to CSS.html" class="nav_a"><div class="nav_a_div">css</div></a></div>
 
 
-        <div class="nav_js"><a href="../JS_page/Introduction.html"><div class="nav_a_div">js</div></a></div>
+        <div class="nav_js"><a href="../JS_page/Introduction.html" class="nav_a"><div class="nav_a_div">js</div></a></div>
     </nav>
 
     <div class="section_head">
-        <div class="section_left"></div>
-        <div class="section_right"></div>
+       
     </div>
 `;
 
 
 
 
-//
+//<div class="section_left"></div>
+//<div class="section_right"></div>
 
 
 

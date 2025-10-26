@@ -7,23 +7,26 @@
     }
 .nav{
 display: flex;justify-content: space-evenly;align-items: center;width: 100%; z-index: 10;
-height: 5vh;border: 2px solid red;background-color: lightgrey;position: fixed;top: 0px;left: 0px;overflow-y: scroll;
+height: 5vh;border: 2px solid red;background-color: lightgrey;position: fixed;top: 0px;left: 0px; 
 }
 .section_left{
-width: 20%;height:100%;border: 2px solid rgb(39, 39, 39);background-color: lightblue;position: fixed;top: 5vh;left: 0px;z-index:0 ;padding-left:0% ;overflow-y: scroll;
+width: 20%;height:100%;border: 2px solid rgb(39, 39, 39);background-color: lightblue;position: fixed;top: 5vh;left: 0px;z-index:0 ;padding-left:0% ;overflow-y: scroll; 
 }
 .section_left_A{width: 100%;height: auto;}
 
 
-.section_left_A:hover{background-color: rgb(236, 227, 227);}
+.section_left_A:hover{background-color: rgb(236, 227, 227); }
 .section_left_a{ padding-left: 0%;transform: translateX(10%);}
-.nav_html,.nav_css,.nav_js{width: 10%;background-color: rgb(236, 227, 227); color:black;text-align: center;
+.nav_html,.nav_css,.nav_js{width: 10%;background-color: rgb(236, 227, 227); color:black;text-align: center;text-decoration: none
     ;
  }
-.nav_a_div{  width: 100%;background-color: rgb(236, 227, 227); color:black; }
-.section_left_a_div{width: 100%;height: auto; }
+.nav_a_div{  width: 100%;background-color: rgb(236, 227, 227); color:black;}
+ac{text-decoration: none;}
+.section_left_a_div{width: 100%;height: auto;  }
 .section_left_a_div:hover{background-color: rgb(236, 227, 227);;}
 /* .nsection_right{
     width: 80%;height:  80vh;min-height: 95vh;border: 2px solid rgb(48, 29, 32);background-color: #4682B4;position: relative;top: 5vh;left: 20%;z-index:0;
     } */
-    .body_container{--color:red;--bgc: green;--fs:12px;--ff: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    .body_container{--color:red;--bgc: #04aa6d;--fs:12px;--ff: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    .section_left_,.nav_a{text-decoration: none;}
+    /* .nav_a{text-decoration: none;} */
