@@ -40,12 +40,14 @@ const section_left_js_array= [
       </div>
   `;
  let section_left=document.querySelector(".section_left ")
-const nav_js=document.querySelector(".nav_js")
- nav_js.style.background="green" 
+const nav_js=document.querySelector(".nav_js");
+const nav_a_div=document.querySelectorAll(".nav_a_div");
+nav_a_div[2].style.background="green"
+ 
  
 
 
-
+ 
 
 
  

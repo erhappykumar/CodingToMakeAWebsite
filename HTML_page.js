@@ -37,7 +37,9 @@ const section_left_html_array = [
   `;
  let section_left=document.querySelector(".section_left ")
 const nav_html=document.querySelector(".nav_html")
- nav_html.style.background="green" 
+const nav_a_div=document.querySelectorAll(".nav_a_div");
+nav_a_div[0].style.background="green"
+  
  
 
 

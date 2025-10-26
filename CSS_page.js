@@ -43,8 +43,10 @@ const section_left_css_array = [
       </div>
   `;
  let section_left=document.querySelector(".section_left ")
-const nav_css=document.querySelector(".nav_css")
- nav_css.style.background="green" 
+const nav_css=document.querySelector(".nav_css");
+const nav_a_div=document.querySelectorAll(".nav_a_div");
+nav_a_div[1].style.background="green"
+   
  
 
 
