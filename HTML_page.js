@@ -1,0 +1,62 @@
+
+const section_left_html_array = [
+    "Introduction",
+    "HTML Basic Structure", 
+    "HTML Elements",
+    "Text Formatting",
+    "Links & Anchors",
+    "Images & Multimedia",
+    "Lists",
+    "Tables",
+    "Forms & Input",
+    "Semantic HTML",
+    "HTML Entities & Symbols",
+    "Inline Frames",
+    "HTML5 APIs & Advanced Features",
+    "Global Attributes & Data- Attributes",
+    "Best Practices",
+    "HTML & CSS/JS Integration",
+    "Deprecated & Obsolete Tags",
+    "References & Resources"
+  ];
+
+  const body = document.querySelector("body");
+  body.innerHTML += `<nav class="nav">
+          <div class="nav_html"><a href="../HTML_page/Introduction.html"><div class="nav_a_div">html</div></a></div>
+          
+          <div class="nav_css"><a href="../CSS_page/Introduction to CSS.html"><div class="nav_a_div">css</div></a></div>
+  
+  
+          <div class="nav_js"><a href="../JS_page/Introduction.html"><div class="nav_a_div">js</div></a></div>
+      </nav>
+  
+      <div class="section_head">
+          <div class="section_left"></div>
+          <div class="section_right"></div>
+      </div>
+  `;
+ let section_left=document.querySelector(".section_left ")
+const nav_html=document.querySelector(".nav_html")
+ nav_html.style.background="green" 
+ 
+
+
+
+
+
+ 
+section_left_html_array.forEach((headline,i)=>{ section_left.innerHTML+= `
+  <div class="section_left_A ${i}">
+    <div class="section_left_a">
+      <a class="section_left_" href="/HTML_page/${headline}.html">  <div class="section_left_a_div">${headline}</div></a>
+    </div>
+  </div>`;
+ 
+
+
+ });
+
+  const section_left_a=document.querySelectorAll(".section_left_a")
+
+
+ 
